@@ -7,6 +7,7 @@ public class Test {
         System.out.println(naipe1.getNombre());
         System.out.println(naipe2.getNombre());
         System.out.println(naipe3.getNombre());
+        System.out.println("pene");
 
         int envido = RevisaTruco.calcularEnvido(naipe1,naipe2,naipe3);
         System.out.println("Envido: " + envido);
