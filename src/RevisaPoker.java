@@ -26,19 +26,8 @@ public class RevisaPoker {
         return (n.getPalo().equals("Joker"));
     }
 
-//    public static boolean esEscalera(NaipeIngles n1, NaipeIngles n2, NaipeIngles n3){
-//
-//        int menor = n1.getNumero();
-//        if (n2.getNumero() < menor) menor = n2.getNumero();
-//        if (n3.getNumero() < menor) menor = n3.getNumero();
-//
-//        int mayor = n1.getNumero();
-//        if (n2.getNumero() > mayor) mayor = n2.getNumero();
-//        if (n3.getNumero() > mayor) mayor = n3.getNumero();
-//
-//        if (esJoker(n1) || esJoker(n2) || esJoker(n3)) return true;
-//
-//    }
-
+    private static boolean esTrio(NaipeIngles n1, NaipeIngles n2, NaipeIngles n3){
+        return (n1.mismoValor(n2) && n2.mismoValor(n3));
+    }
 
 }
