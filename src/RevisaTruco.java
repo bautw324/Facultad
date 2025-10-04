@@ -27,8 +27,7 @@ public class RevisaTruco {
         return "";
     }
 
-    //public static int calcularEnvido(NaipeEspañol n1,NaipeEspañol n2,NaipeEspañol n3){
-    public static int calcularEnvido(Naipe n1,Naipe n2,Naipe n3){
+    public static int calcularEnvido(NaipeEspañol n1,NaipeEspañol n2,NaipeEspañol n3){
         int envido = 0;
         if (n1.igualPalo(n2)){
 
@@ -63,7 +62,7 @@ public class RevisaTruco {
         return (n1.igualPalo(n2) && n2.igualPalo(n3));
     }
 
-    public static int valorTruco(Naipe n) {
+    public static int valorTruco(NaipeEspañol n) {
         int numero = n.getNumero();
         String palo = n.getPalo();
 
@@ -85,8 +84,8 @@ public class RevisaTruco {
         return 1; // por si acaso
     }
 
-    public static Naipe mayorTruco(Naipe n1,Naipe n2,Naipe n3){
-        Naipe mayor = n1;
+    public static NaipeEspañol mayorTruco(NaipeEspañol n1,NaipeEspañol n2,NaipeEspañol n3){
+        NaipeEspañol mayor = n1;
         if (valorTruco(n2) > valorTruco(mayor)) mayor = n2;
         if (valorTruco(n3) > valorTruco(mayor)) mayor = n3;
         return mayor;
