@@ -1,7 +1,6 @@
 import java.util.*;
 public class multiploEspecifico {
     public static void main (String[] args){
-
         Scanner dato = new Scanner(System.in);
         System.out.println("ingrese un numero ");
         int numeropedido = dato.nextInt();
@@ -29,7 +28,6 @@ public class multiploEspecifico {
         if (multiplo9) cantidad++;
 
         switch (cantidad){
-
             case 0:
                 System.out.println(" ningun es multiplo del numero " + numeropedido);
                 break;

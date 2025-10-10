@@ -9,7 +9,6 @@ b) Crear los siguientes métodos:
 • mostrarRaices: muestra en pantalla las dos raíces indicando si son reales o
 imaginarias */
 
-
 public class Polinomio2 {
     private double a;
     private double b;

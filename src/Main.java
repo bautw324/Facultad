@@ -1,8 +1,7 @@
-
 public class Main {
     public static void main(String[] args) {
         // Crear una población de microorganismos
-        PoblacionMicroorganismos poblacion = new PoblacionMicroorganismos(
+        PoblacionMicroorganismo poblacion = new PoblacionMicroorganismo(
                 1000, 0.2, 0.005, FormaMicroorganismo.BACILO, 1.1, 0.8
         );
 

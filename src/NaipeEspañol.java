@@ -42,5 +42,4 @@ public class NaipeEspañol extends Naipe{
 
     }
 
-
 }

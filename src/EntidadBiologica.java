@@ -14,7 +14,7 @@ public abstract class EntidadBiologica {
         return Nt0 * Math.exp(coeficienteK * t);
     }
 
-    // Método abstracto que cada subclase debe implementar
+    // Métodoo abstracto que cada subclase debe implementar
     public abstract double calcularEnTiempo(double t);
 
     // Getters y Setters
