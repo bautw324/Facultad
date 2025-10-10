@@ -1,4 +1,3 @@
-// Bautista Genovese - 49.790.865
 public class Test {
     public static void main(String[] args) {
         NaipeEspañol naipe1 = RevisaTruco.generarCarta();

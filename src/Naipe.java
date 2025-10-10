@@ -41,5 +41,4 @@ public class Naipe {
         return (n.getPalo().equals(palo));
     }
 
-
 }

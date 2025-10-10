@@ -64,8 +64,8 @@ public class RevisaPoker {
         }
 
         boolean esFull =
-                (numeros[0] == numeros[1] && numeros[1] == numeros[2] && numeros[3] == numeros[4] && numeros[2] != numeros[3]) ||  // AAABB
-                (numeros[0] == numeros[1] && numeros[2] == numeros[3] && numeros[3] == numeros[4] && numeros[1] != numeros[2]);  // AABBB
+                (numeros[0] == numeros[1] && numeros[1] == numeros[2] && numeros[3] == numeros[4]) ||  // AAABB
+                (numeros[0] == numeros[1] && numeros[2] == numeros[3] && numeros[3] == numeros[4]);  // AABBB
 
         if (esFull) {
             System.out.println("Las cartas conforman un full");
